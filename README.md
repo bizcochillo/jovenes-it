@@ -1,6 +1,6 @@
 # Jóvenes expertos en Tecnologías de la Información
 
-- Hardware. CPU, memoria, almacenamiento, cableado, elementos inalámbricos, conexión de elementos, USB, elementos inalámbricos, conectar móvil.
+- Hardware. CPU, memoria, almacenamiento, cableado, elementos inalámbricos, bluetooth, USB.
 
 - Sistemas operativos Windows, Linux, familia de Apple y Android. 
 
