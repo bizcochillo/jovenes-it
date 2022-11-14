@@ -1,6 +1,10 @@
 # Jóvenes expertos en Tecnologías de la Información
 
 - Hardware. CPU, memoria, almacenamiento, cableado, elementos inalámbricos, bluetooth, USB.
+  Presentación de qué es la memoria, qué es la CPU y qué es el almacenamiento. 
+  CPU, lo medimos por el tipo de procesador y la frecuencia de trabajo. 
+  Memoria, RAM caché, unidades en Gigabytes, Megabytes, Kilobytes, etc
+  Almacenamiento, Tipo de almacenamiento (SSD) y cantidad. 
 
 - Sistemas operativos Windows, Linux, familia de Apple y Android. 
 
