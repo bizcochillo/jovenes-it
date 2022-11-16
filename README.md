@@ -5,11 +5,21 @@
   CPU, lo medimos por el tipo de procesador y la frecuencia de trabajo. 
   Memoria, RAM caché, unidades en Gigabytes, Megabytes, Kilobytes, etc
   Almacenamiento, Tipo de almacenamiento (SSD) y cantidad. 
+  
+  Actividad: Buscar en PC Componentes portátiles e identificar las características. 
+  Actividad: Cómo saber qué características tiene un sistema Linux
+  Actividad: Cómo saber qué características tiene un sistema Windows
+  Actividad: Conectar un USB un sistema Linux. 
+  Actividad: Instalar o reconocer una impresora en Windows. 
 
 - Sistemas operativos Windows, Linux, familia de Apple y Android. 
 
 - Redes. Wifi, Ethernet, Red Local, Router, IP. 
-
+  Actividad: Conectar un portátil a la WIFI
+  Actividad: Conectar un portátil a la Ethernet
+  Actividad: Conectar un portátil a una red móvil  
+  Actividad: Emparejar un dispositivo bluetooth con el portátil. 
+  
 - Correo electrónico. Cuentas, ficheros adjuntos, SPAM, organización
 
 - Criptografía. HTTPS, certificado digital. Taller de criptografía. 
@@ -26,7 +36,7 @@
 
 - Editar sonido. Audacity
 
-- Editar vídeo. TODO
+- Editar vídeo. OpenShot
 
 - Redes sociales. Crear cuentas, subir imágenes, compartir contenido. Peligros
 
