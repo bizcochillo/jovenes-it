@@ -1,0 +1,40 @@
+- hosts: all
+  tasks:
+    - name: install InkScape      
+      apt:
+        name: inkscape
+        state: present
+    - name: install GIMP      
+      apt:
+        name: gimp
+        state: present
+    - name: Install apt-transport-https
+      apt:
+        state: latest
+        update_cache: true
+    - name: Add Apt signing key
+      apt_key:
+        url: "https://dl.google.com/linux/linux_signing_key.pub"
+        state: present
+    - name: Add repository into sources list
+      apt_repository:
+        repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+        state: present
+        filename: google-chrome
+    - name: Install google-chrome-stable
+      apt:
+        name: "google-chrome-stable"
+        state: latest
+        update_cache: true
+    - name: install Audacity snap
+      command: snap install audacity
+    - name: Add repository for OpenShot
+      apt_repository:
+        repo: ppa:openshot.developers/libopenshot-daily
+    - name: Install OpenShot
+      apt:
+        name: 
+        - "openshot-qt"
+        - "python3-openshot"
+        state: latest
+        update_cache: true
