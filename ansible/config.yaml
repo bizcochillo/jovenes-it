@@ -38,3 +38,7 @@
         - "python3-openshot"
         state: latest
         update_cache: true
+    - name: Install Pinta
+      apt: 
+        name: "pinta"
+        state: present
