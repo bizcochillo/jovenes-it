@@ -49,3 +49,7 @@
 - Redes sociales. Crear cuentas, subir imágenes, compartir contenido. Peligros
 
 - Programación básica python. 
+
+```console
+ansible-playbook config.yaml --ask-become-pass
+```
