@@ -44,3 +44,15 @@
         state: present
     - name: install Blender snap
       command: snap install blender --classic
+    - name: prepare eula 
+      debconf:
+        name: ttf-mscorefonts-installer
+        question: msttcorefonts/accepted-mscorefonts-eula
+        vtype: boolean
+        value: true
+    - name: Install a list of packages
+      apt:
+        update_cache: yes
+        state: latest
+        pkg:
+        - ubuntu-restricted-extras
